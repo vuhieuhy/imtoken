@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="true"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="#fbfcfe"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:src="@drawable/menu2"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="#fbfcfe"
+            android:src="@drawable/anh_dong_1" />
+    </LinearLayout>
+    <TextView
+        android:background="#f3f4f6"
+        android:layout_width="match_parent"
+        android:layout_height="30px"/>
+    <ImageView
+        android:id="@+id/imvout"
+        android:paddingTop="13dp"
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:src="@drawable/menugd"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/lvgd"
+        android:layout_width="match_parent"
+        android:layout_height="380dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom">
+
+        <ImageView
+            android:id="@+id/imv2"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:src="@drawable/footer2" />
+    </LinearLayout>
+
+</LinearLayout>
+
